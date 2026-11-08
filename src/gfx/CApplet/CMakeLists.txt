@@ -1,0 +1,19 @@
+target_sources(${PROJECT_NAME}
+  PRIVATE
+    GLErrorHandler.h
+    GLErrorHandler.cpp
+    lodepng.h
+    lodepng.cpp
+    CShape.h
+    CShape.cpp
+    CShape2D.h
+    CShape2D.cpp
+    CTexture.h
+    CTexture.cpp
+    CShader.h
+    CShader.cpp
+    StandardShaders.h
+    StandardShaders.cpp
+    CApplet.h
+    CApplet.cpp
+)
